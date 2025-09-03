@@ -1,0 +1,100 @@
+body {
+  background: #e0f7fa;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #22543d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 10px #b2dfdb88;
+}
+
+.plant-stage {
+  width: 220px;
+  height: 250px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 4em;
+  transition: all 0.5s;
+}
+
+.status-bar {
+  display: flex;
+  gap: 22px;
+  font-size: 1.1em;
+  margin-bottom: 12px;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+button {
+  background: #b2f2bb;
+  color: #22543d;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-size: 1.1em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s, transform 0.15s;
+}
+button:hover {
+  background: #81e6d9;
+  transform: scale(1.07);
+}
+#reset-btn {
+  background: #fff3cd;
+  color: #a67c00;
+}
+#reset-btn:hover {
+  background: #ffe066;
+}
+
+.message {
+  height: 24px;
+  margin-bottom: 8px;
+  color: #0b7285;
+  font-weight: bold;
+  min-height: 1.2em;
+  text-align: center;
+}
+
+.info {
+  background: #fefae0;
+  color: #a67c00;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px #fff3cd60;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.95em;
+  background: #b2dfdb;
+  color: #22543d;
+  padding: 10px 0 6px 0;
+  letter-spacing: 0.08em;
+  box-shadow: 0 -2px 8px #b2dfdb40;
+}
